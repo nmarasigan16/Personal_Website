@@ -99,7 +99,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #9c27b0; }
+  background-color: #5e35b1; }
 
 .row {
   display: flex;
@@ -111,13 +111,13 @@
 .header {
   font-size: 16px;
   font-size: 5.5vmax;
-  color: #e0e0e0; }
+  color: #fff; }
 
 .subhead {
   opacity: 0;
   flex: 0 0 60%;
   font-size: 2.5vh;
-  color: #e0e0e0;
+  color: #fff;
   -webkit-animation-delay: 2s;
   -webkit-animation-duration: 1s;
   -webkit-animation-name: fadein;

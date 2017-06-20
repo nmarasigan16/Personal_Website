@@ -23,13 +23,13 @@
 .header{
   font-size: 16px;
   font-size: 5.5vmax;
-  color: $md-primary-color;
+  color: $md-tertiary-color;
 }
 
 .subhead{
   opacity: 0;
   flex: 0 0 60%;
   font-size: 2.5vh;
-  color: $md-primary-color;
+  color: $md-tertiary-color;
   @include animation(2s, 1s, fadein)
 }
