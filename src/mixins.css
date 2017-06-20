@@ -1,0 +1,94 @@
+@-webkit-keyframes fadeout {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+@-moz-keyframes fadeout {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+@-ms-keyframes fadeout {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+@-o-keyframes fadeout {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+@keyframes fadeout {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+@-webkit-keyframes changecolour {
+  0% {
+    color: #000; }
+  100% {
+    color: #FFF; } }
+
+@-moz-keyframes changecolour {
+  0% {
+    color: #000; }
+  100% {
+    color: #FFF; } }
+
+@-ms-keyframes changecolour {
+  0% {
+    color: #000; }
+  100% {
+    color: #FFF; } }
+
+@-o-keyframes changecolour {
+  0% {
+    color: #000; }
+  100% {
+    color: #FFF; } }
+
+@keyframes changecolour {
+  0% {
+    color: #000; }
+  100% {
+    color: #FFF; } }
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@-moz-keyframes fadein {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@-ms-keyframes fadein {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@-o-keyframes fadein {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes fadein {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/*
+    Example usage: 
+    @include animation(10s, 5s, changecolour)
+ */

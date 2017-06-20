@@ -1,24 +1,97 @@
+@-webkit-keyframes $animation_name {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+@-moz-keyframes $animation_name {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+@-o-keyframes $animation_name {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+@keyframes $animation_name {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+@-webkit-keyframes $animation_name {
+  0% {
+    color: #000; }
+  100% {
+    color: #FFF; } }
+
+@-moz-keyframes $animation_name {
+  0% {
+    color: #000; }
+  100% {
+    color: #FFF; } }
+
+@-o-keyframes $animation_name {
+  0% {
+    color: #000; }
+  100% {
+    color: #FFF; } }
+
+@keyframes $animation_name {
+  0% {
+    color: #000; }
+  100% {
+    color: #FFF; } }
+
+@-webkit-keyframes $animation_name {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@-moz-keyframes $animation_name {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@-o-keyframes $animation_name {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes $animation_name {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/*
+    Example usage: 
+    @include animation(10s, 5s, changecolour)
+ */
 .App {
-  text-align: center;
-}
+  font-family: 'Ubuntu'; }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
+  height: 80px; }
 
 .App-header {
   background-color: #222;
   height: 150px;
   padding: 20px;
-  color: white;
-}
+  color: white; }
 
 .App-intro {
-  font-size: large;
-}
+  font-size: large; }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }

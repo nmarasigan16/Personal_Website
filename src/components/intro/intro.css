@@ -1,0 +1,131 @@
+@-webkit-keyframes $animation_name {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+@-moz-keyframes $animation_name {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+@-o-keyframes $animation_name {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+@keyframes $animation_name {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+@-webkit-keyframes $animation_name {
+  0% {
+    color: #000; }
+  100% {
+    color: #FFF; } }
+
+@-moz-keyframes $animation_name {
+  0% {
+    color: #000; }
+  100% {
+    color: #FFF; } }
+
+@-o-keyframes $animation_name {
+  0% {
+    color: #000; }
+  100% {
+    color: #FFF; } }
+
+@keyframes $animation_name {
+  0% {
+    color: #000; }
+  100% {
+    color: #FFF; } }
+
+@-webkit-keyframes $animation_name {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@-moz-keyframes $animation_name {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@-o-keyframes $animation_name {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes $animation_name {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/*
+    Example usage: 
+    @include animation(10s, 5s, changecolour)
+ */
+.block {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #9c27b0; }
+
+.row {
+  display: flex;
+  flex-direction: row; }
+
+.flanker {
+  flex-grow: 1; }
+
+.header {
+  font-size: 16px;
+  font-size: 5.5vmax;
+  color: #e0e0e0;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-name: changecolor;
+  -webkit-animation-fill-mode: forwards;
+  /* this prevents the animation from restarting! */
+  -moz-animation-delay: 0s;
+  -moz-animation-duration: 10s;
+  -moz-animation-name: changecolor;
+  -moz-animation-fill-mode: forwards;
+  /* this prevents the animation from restarting! */
+  animation-delay: 0s;
+  animation-duration: 10s;
+  animation-name: changecolor;
+  animation-fill-mode: forwards;
+  /* this prevents the animation from restarting! */ }
+
+.subhead {
+  flex: 0 0 60%;
+  font-size: 2.5vh;
+  color: #e0e0e0;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-name: fadeout;
+  -webkit-animation-fill-mode: forwards;
+  /* this prevents the animation from restarting! */
+  -moz-animation-delay: 1s;
+  -moz-animation-duration: 10s;
+  -moz-animation-name: fadeout;
+  -moz-animation-fill-mode: forwards;
+  /* this prevents the animation from restarting! */
+  animation-delay: 1s;
+  animation-duration: 10s;
+  animation-name: fadeout;
+  animation-fill-mode: forwards;
+  /* this prevents the animation from restarting! */ }
