@@ -6,9 +6,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   height: 100vh;
-  background-color: $md-secondary-color;
+  background-color: rgba($md-secondary-color, .5);
 }
 
 .row {
@@ -28,8 +28,7 @@
 
 .subhead{
   opacity: 0;
-  flex: 0 0 60%;
   font-size: 2.5vh;
   color: $md-tertiary-color;
-  @include animation(2s, 1s, fadein)
+  @include animation(2s, .1s, fadein)
 }

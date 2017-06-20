@@ -28,7 +28,7 @@ function Intro(props) {
             blink:true,
             element: '_',
             hideWhenDone: true,
-            hideWhenDoneDelay: 1000
+            hideWhenDoneDelay: 100
           }}
         >
         &nbsp;I'm Nathan
@@ -36,10 +36,20 @@ function Intro(props) {
       </div>
       <div className="row">
         <div className="flanker" />
-        <p className="subhead">
+        <Typist
+          className="subhead"
+          startDelay={3000}
+          cursor={{
+            show: true,
+            blink:true,
+            element: '_',
+            hideWhenDone: true,
+            hideWhenDoneDelay: 100
+          }}
+        >
           A developer currently studying at 
           <span style={{color:'#FA6300'}}> UIUC</span>
-        </p>
+        </Typist>
         <div className="flanker" />
       </div>
       <div className="buttons">
