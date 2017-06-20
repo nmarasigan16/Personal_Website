@@ -1,4 +1,5 @@
 @import 'globals';
+@import 'mixins';
 
 .block {
   text-align: center;
@@ -23,13 +24,13 @@
   font-size: 16px;
   font-size: 5.5vmax;
   color: $md-primary-color;
-  @include animation(0s, 10s, changecolor);
+  @include animation(0s, 1s, fadein);
 }
 
 .subhead{
+  opacity: 0;
   flex: 0 0 60%;
   font-size: 2.5vh;
   color: $md-primary-color;
-  @include animation(1s, 10s, fadeout);
+  @include animation(1s, 1s, fadein);
 }
-
