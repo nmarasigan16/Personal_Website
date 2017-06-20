@@ -111,49 +111,29 @@
 .header {
   font-size: 16px;
   font-size: 5.5vmax;
-  color: #e0e0e0;
-  -webkit-animation-delay: 0s;
-  -webkit-animation-duration: 1s;
-  -webkit-animation-name: fadein;
-  -webkit-animation-fill-mode: forwards;
-  /* this prevents the animation from restarting! */
-  -moz-animation-delay: 0s;
-  -moz-animation-duration: 1s;
-  -moz-animation-name: fadein;
-  -moz-animation-fill-mode: forwards;
-  /* this prevents the animation from restarting! */
-  -o-animation-delay: 0s;
-  -o-animation-duration: 1s;
-  -o-animation-name: fadein;
-  -o-animation-fill-mode: forwards;
-  /* this prevents the animation from restarting! */
-  animation-delay: 0s;
-  animation-duration: 1s;
-  animation-name: fadein;
-  animation-fill-mode: forwards;
-  /* this prevents the animation from restarting! */ }
+  color: #e0e0e0; }
 
 .subhead {
   opacity: 0;
   flex: 0 0 60%;
   font-size: 2.5vh;
   color: #e0e0e0;
-  -webkit-animation-delay: 1s;
+  -webkit-animation-delay: 2s;
   -webkit-animation-duration: 1s;
   -webkit-animation-name: fadein;
   -webkit-animation-fill-mode: forwards;
   /* this prevents the animation from restarting! */
-  -moz-animation-delay: 1s;
+  -moz-animation-delay: 2s;
   -moz-animation-duration: 1s;
   -moz-animation-name: fadein;
   -moz-animation-fill-mode: forwards;
   /* this prevents the animation from restarting! */
-  -o-animation-delay: 1s;
+  -o-animation-delay: 2s;
   -o-animation-duration: 1s;
   -o-animation-name: fadein;
   -o-animation-fill-mode: forwards;
   /* this prevents the animation from restarting! */
-  animation-delay: 1s;
+  animation-delay: 2s;
   animation-duration: 1s;
   animation-name: fadein;
   animation-fill-mode: forwards;
