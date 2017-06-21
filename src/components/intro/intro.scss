@@ -29,10 +29,13 @@
 }
 
 .avatar{
+  opacity: 0;
   display: inline-block;
-  width: 5vmax;
-  height: 5vmax;
+  width: 30vmax;
+  height: 30vmax;
   margin-bottom: 3vh;
+  border-radius: 50%;
+  @include animation(2s, 1s, popin);
 }
 
 .subhead{

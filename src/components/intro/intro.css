@@ -195,10 +195,32 @@
   color: #fff; }
 
 .avatar {
+  opacity: 0;
   display: inline-block;
-  width: 5vmax;
-  height: 5vmax;
-  margin-bottom: 3vh; }
+  width: 30vmax;
+  height: 30vmax;
+  margin-bottom: 3vh;
+  border-radius: 50%;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-name: popin;
+  -webkit-animation-fill-mode: forwards;
+  /* this prevents the animation from restarting! */
+  -moz-animation-delay: 2s;
+  -moz-animation-duration: 1s;
+  -moz-animation-name: popin;
+  -moz-animation-fill-mode: forwards;
+  /* this prevents the animation from restarting! */
+  -o-animation-delay: 2s;
+  -o-animation-duration: 1s;
+  -o-animation-name: popin;
+  -o-animation-fill-mode: forwards;
+  /* this prevents the animation from restarting! */
+  animation-delay: 2s;
+  animation-duration: 1s;
+  animation-name: popin;
+  animation-fill-mode: forwards;
+  /* this prevents the animation from restarting! */ }
 
 .subhead {
   flex: 0 0 80%;
