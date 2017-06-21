@@ -180,7 +180,7 @@
   /* this prevents the animation from restarting! */
   height: 100vh;
   width: 100vw;
-  background-color: #5e35b1; }
+  background-color: #003366; }
 
 .row {
   display: flex;
@@ -197,8 +197,8 @@
 .avatar {
   opacity: 0;
   display: inline-block;
-  width: 30vmax;
-  height: 30vmax;
+  width: 20vmax;
+  height: 20vmax;
   margin-bottom: 3vh;
   border-radius: 50%;
   -webkit-animation-delay: 2s;
@@ -228,45 +228,45 @@
   font-size: 3vh;
   color: #fff;
   word-wrap: no-wrap;
-  -webkit-animation-delay: 2s;
-  -webkit-animation-duration: 0.1s;
+  -webkit-animation-delay: 3s;
+  -webkit-animation-duration: 1s;
   -webkit-animation-name: fadein;
   -webkit-animation-fill-mode: forwards;
   /* this prevents the animation from restarting! */
-  -moz-animation-delay: 2s;
-  -moz-animation-duration: 0.1s;
+  -moz-animation-delay: 3s;
+  -moz-animation-duration: 1s;
   -moz-animation-name: fadein;
   -moz-animation-fill-mode: forwards;
   /* this prevents the animation from restarting! */
-  -o-animation-delay: 2s;
-  -o-animation-duration: 0.1s;
+  -o-animation-delay: 3s;
+  -o-animation-duration: 1s;
   -o-animation-name: fadein;
   -o-animation-fill-mode: forwards;
   /* this prevents the animation from restarting! */
-  animation-delay: 2s;
-  animation-duration: 0.1s;
+  animation-delay: 3s;
+  animation-duration: 1s;
   animation-name: fadein;
   animation-fill-mode: forwards;
   /* this prevents the animation from restarting! */ }
 
 .b1 {
   opacity: 0;
-  -webkit-animation-delay: 5s;
+  -webkit-animation-delay: 4s;
   -webkit-animation-duration: 1s;
   -webkit-animation-name: popin;
   -webkit-animation-fill-mode: forwards;
   /* this prevents the animation from restarting! */
-  -moz-animation-delay: 5s;
+  -moz-animation-delay: 4s;
   -moz-animation-duration: 1s;
   -moz-animation-name: popin;
   -moz-animation-fill-mode: forwards;
   /* this prevents the animation from restarting! */
-  -o-animation-delay: 5s;
+  -o-animation-delay: 4s;
   -o-animation-duration: 1s;
   -o-animation-name: popin;
   -o-animation-fill-mode: forwards;
   /* this prevents the animation from restarting! */
-  animation-delay: 5s;
+  animation-delay: 4s;
   animation-duration: 1s;
   animation-name: popin;
   animation-fill-mode: forwards;
@@ -274,22 +274,22 @@
 
 .b2 {
   opacity: 0;
-  -webkit-animation-delay: 5.2s;
+  -webkit-animation-delay: 4.2s;
   -webkit-animation-duration: 1s;
   -webkit-animation-name: popin;
   -webkit-animation-fill-mode: forwards;
   /* this prevents the animation from restarting! */
-  -moz-animation-delay: 5.2s;
+  -moz-animation-delay: 4.2s;
   -moz-animation-duration: 1s;
   -moz-animation-name: popin;
   -moz-animation-fill-mode: forwards;
   /* this prevents the animation from restarting! */
-  -o-animation-delay: 5.2s;
+  -o-animation-delay: 4.2s;
   -o-animation-duration: 1s;
   -o-animation-name: popin;
   -o-animation-fill-mode: forwards;
   /* this prevents the animation from restarting! */
-  animation-delay: 5.2s;
+  animation-delay: 4.2s;
   animation-duration: 1s;
   animation-name: popin;
   animation-fill-mode: forwards;
@@ -297,22 +297,22 @@
 
 .b3 {
   opacity: 0;
-  -webkit-animation-delay: 5.4s;
+  -webkit-animation-delay: 4.4s;
   -webkit-animation-duration: 1s;
   -webkit-animation-name: popin;
   -webkit-animation-fill-mode: forwards;
   /* this prevents the animation from restarting! */
-  -moz-animation-delay: 5.4s;
+  -moz-animation-delay: 4.4s;
   -moz-animation-duration: 1s;
   -moz-animation-name: popin;
   -moz-animation-fill-mode: forwards;
   /* this prevents the animation from restarting! */
-  -o-animation-delay: 5.4s;
+  -o-animation-delay: 4.4s;
   -o-animation-duration: 1s;
   -o-animation-name: popin;
   -o-animation-fill-mode: forwards;
   /* this prevents the animation from restarting! */
-  animation-delay: 5.4s;
+  animation-delay: 4.4s;
   animation-duration: 1s;
   animation-name: popin;
   animation-fill-mode: forwards;
@@ -320,22 +320,22 @@
 
 .b4 {
   opacity: 0;
-  -webkit-animation-delay: 5.6s;
+  -webkit-animation-delay: 4.6s;
   -webkit-animation-duration: 1s;
   -webkit-animation-name: popin;
   -webkit-animation-fill-mode: forwards;
   /* this prevents the animation from restarting! */
-  -moz-animation-delay: 5.6s;
+  -moz-animation-delay: 4.6s;
   -moz-animation-duration: 1s;
   -moz-animation-name: popin;
   -moz-animation-fill-mode: forwards;
   /* this prevents the animation from restarting! */
-  -o-animation-delay: 5.6s;
+  -o-animation-delay: 4.6s;
   -o-animation-duration: 1s;
   -o-animation-name: popin;
   -o-animation-fill-mode: forwards;
   /* this prevents the animation from restarting! */
-  animation-delay: 5.6s;
+  animation-delay: 4.6s;
   animation-duration: 1s;
   animation-name: popin;
   animation-fill-mode: forwards;

@@ -31,8 +31,8 @@
 .avatar{
   opacity: 0;
   display: inline-block;
-  width: 30vmax;
-  height: 30vmax;
+  width: 20vmax;
+  height: 20vmax;
   margin-bottom: 3vh;
   border-radius: 50%;
   @include animation(2s, 1s, popin);
@@ -44,10 +44,10 @@
   font-size: 3vh;
   color: $md-tertiary-color;
   word-wrap: no-wrap;
-  @include animation(2s, .1s, fadein)
+  @include animation(3s, 1s, fadein)
 }
 
-$initial_delay : 5;
+$initial_delay : 4;
 
 .b1{
   opacity: 0;

@@ -40,21 +40,10 @@ function Intro(props) {
       </div>
       <div className="row">
         <div className="flanker" />
-        <Typist
-          avgTypingDelay={50}
-          className="subhead"
-          startDelay={3000}
-          cursor={{
-            show: true,
-            blink:true,
-            element: '_',
-            hideWhenDone: true,
-            hideWhenDoneDelay: 100
-          }}
-        >
+        <div className="subhead">
           A<wbr /> developer <wbr />currently<wbr /> studying<wbr /> at<wbr /> 
           <span style={{color:'#FA6300'}}> UIUC</span>
-        </Typist>
+        </div>
         <div className="flanker" />
       </div>
       <div className="row">
