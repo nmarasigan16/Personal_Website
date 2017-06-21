@@ -6,9 +6,11 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  @include animation(0s, 1s, slideleftout);
   height: 100vh;
-  background-color: rgba($md-secondary-color, .5);
+  width: 100vw;
+  background-color: $md-secondary-color;
 }
 
 .row {
@@ -22,13 +24,44 @@
 
 .header{
   font-size: 16px;
-  font-size: 5.5vmax;
+  font-size: 8vmax;
   color: $md-tertiary-color;
 }
 
+.avatar{
+  display: inline-block;
+  width: 5vmax;
+  height: 5vmax;
+  margin-bottom: 3vh;
+}
+
 .subhead{
+  flex: 0 0 80%;
   opacity: 0;
-  font-size: 2.5vh;
+  font-size: 3vh;
   color: $md-tertiary-color;
+  word-wrap: no-wrap;
   @include animation(2s, .1s, fadein)
+}
+
+$initial_delay : 5;
+
+.b1{
+  opacity: 0;
+  @include animation($initial_delay+s, 1s, popin);
+}
+
+.b2{
+  opacity: 0;
+  @include animation($initial_delay+.2s, 1s, popin);
+}
+
+.b3{
+  opacity: 0;
+  @include animation($initial_delay+.4s, 1s, popin);
+}
+
+.b4{
+  opacity: 0;
+  @include animation($initial_delay+.6s, 1s, popin);
 }

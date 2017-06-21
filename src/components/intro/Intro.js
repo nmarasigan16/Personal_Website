@@ -1,6 +1,7 @@
 import React from "react";
 import Button from 'react-md/lib/Buttons';
 import Typist from 'react-typist';
+import Avatar from '../../images/avatar.jpg'
 import './intro.css';
 
 function Intro(props) {
@@ -35,8 +36,12 @@ function Intro(props) {
         </Typist>
       </div>
       <div className="row">
+        <img className="avatar" src={Avatar} alt={""} />
+      </div>
+      <div className="row">
         <div className="flanker" />
         <Typist
+          avgTypingDelay={50}
           className="subhead"
           startDelay={3000}
           cursor={{
@@ -47,16 +52,18 @@ function Intro(props) {
             hideWhenDoneDelay: 100
           }}
         >
-          A developer currently studying at 
+          A<wbr /> developer <wbr />currently<wbr /> studying<wbr /> at<wbr /> 
           <span style={{color:'#FA6300'}}> UIUC</span>
         </Typist>
         <div className="flanker" />
       </div>
-      <div className="buttons">
-        <Button tooltipLabel="Resume" icon primary>description</Button>
-        <Button tooltipLabel="Github" icon primary iconClassName='fa fa-github' />
-        <Button tooltipLabel="Contact" icon primary>email</Button>
-        <Button tooltipLabel="Linkedin" icon primary iconClassName='fa fa-linkedin' />
+      <div className="row">
+        <div className="buttons">
+          <Button className="b1" tooltipLabel="Resume" icon primary>description</Button>
+          <Button className="b2" tooltipLabel="Github" icon primary iconClassName='fa fa-github' />
+          <Button className="b3" tooltipLabel="Contact" icon primary>email</Button>
+          <Button className="b4" tooltipLabel="Linkedin" icon primary iconClassName='fa fa-linkedin' />
+        </div>
       </div>
     </div>
   )
